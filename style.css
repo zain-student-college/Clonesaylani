@@ -1,0 +1,121 @@
+:root{
+    --background-color:#780000;
+    --primary-color:#003049;
+    --secondary-color:#669bbc;
+    --text-color:#242424;
+    --accent-color:#fdf0d5;
+    --gray-color:#b9b9b9;
+
+}
+body{
+    
+    padding: 0;
+}
+*{
+    font-family: "Montserrat";
+}
+ul,li{
+    list-style-type: none;
+}
+
+nav{
+    display: flex;
+    box-shadow:1px 1px 15px 2px gray;
+    margin-right: 20px;
+    margin-left: 20px;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list ul{
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    
+}
+#Hero{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: center;
+    margin-top: 100px;
+}
+ #Heroleft{
+  
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    
+}
+#Heroright{
+  
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-wrap: wrap;
+    
+}
+h1{
+    color: var(--secondary-color);
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    
+}
+#text{
+    font-weight: 500;
+    text-align: center;
+}
+#button{
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    padding: 15px;
+    border-radius: 20px;
+    font-weight: 500;
+    border: none;
+    margin-top: 10px;
+    font-size: 17px;
+    transition: all 0.3s ease-in-out;
+}
+#button:hover{
+    background-color: var(--secondary-color);
+    transform: scale(1.1);
+}
+#firstheading{
+    color: var(--primary-color);
+}
+@media (max-width:768px){
+    #Hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #Heroleft{
+        width: 100%;
+        padding:10px;
+    }
+    #Heroright{
+        width: 100%;
+        padding:10px; 
+         margin-top: 20px;
+ 
+    }
+    #img{
+        width: 100%;
+        height: 100%;
+        transform: scale(1.3); 
+    }
+}
