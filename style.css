@@ -95,6 +95,8 @@ h1{
 #firstheading{
     color: var(--primary-color);
 }
+
+
 @media (max-width:768px){
     #Hero{
         display: flex;
@@ -122,6 +124,10 @@ h1{
         width: 100%;
     }
 }
+.Card{
+    transition: all 0.2s ease ;
+}
 .Card:hover{
-background-color: #669bbc;
+    background-color:#c7dceb !important;
+    transform: scale(1.02);
 }
