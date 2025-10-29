@@ -128,6 +128,6 @@ h1{
     transition: all 0.2s ease ;
 }
 .Card:hover{
-    background-color:#c7dceb !important;
+    background-color:#e1e9f0 !important;
     transform: scale(1.02);
 }
