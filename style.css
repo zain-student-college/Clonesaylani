@@ -118,4 +118,10 @@ h1{
         height: 100%;
         transform: scale(1.3); 
     }
+    #pline{
+        width: 100%;
+    }
+}
+.Card:hover{
+background-color: #669bbc;
 }
