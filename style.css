@@ -124,6 +124,7 @@ h1{
         width: 100%;
     }
 }
+
 .Card{
     transition: all 0.2s ease ;
 }
@@ -131,3 +132,4 @@ h1{
     background-color:#e1e9f0 !important;
     transform: scale(1.02);
 }
+
